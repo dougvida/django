@@ -2,16 +2,26 @@
 {% block body_block %}
     <div class="jumbotron">
         <h1>Please Login</h1>
-        <form action="{% url 'basic_app:user_login' %}" method='POST'>
+        <form name='login_form' class="form-horizontal" action="{% url 'basic_app:user_login' %}" method='POST'>
             {% csrf_token %}
             {{ view.as_p }}
-            <label for="username">Username:&nbsp;</label>
-            <input type="text" name="username" placeholder="Enter Username">
-            <label for="password">Password:&nbsp;</label>
-            <input type="password" name="password">
-            <div align="right">
-                <input class="btn btn-primary" type="submit" name="login" value="Login">&nbsp;
-                <input class="btn btn-default" type="submit" name="cancel" value="Cancel">
+            <div class="from-group">
+                <label for="username" class="control-label col-xs-2">Username:</label>
+                <div class="col-xs-6">
+                    <input type="text" class="form-control" name="username" placeholder="Enter Username">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="control-label">Password:</label>
+                <div class="col-xs-6">
+                    <input type="password" class="form-control" name="password">
+                </div>
+            </div>
+            <div class="form-group" align="right">
+                <div class="col-xs-offset-2 col-xs-6">
+                    <input class="btn btn-primary" type="submit" name="login" value="Login">&nbsp;
+                    <input class="btn btn-default" type="submit" name="cancel" value="Cancel">
+                </div>
             </div>
         </form>
         <p id="error_str">{{ error|title }}</p>

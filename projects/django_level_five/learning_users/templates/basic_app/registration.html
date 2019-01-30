@@ -7,11 +7,15 @@
             <h1>Register Here</h1>
             <h4>Fill out the form:</h4>
 
-            <form enctype="multipart/form-data" method="POST">
+            <form name="registration_form" enctype="multipart/form-data" method="POST">
                 {% csrf_token %}
                 {{ user_form.as_p }}
                 {{ profile_form.as_p }}
-                <input type="submit" name="" value="Register" >
+                <div class="row">
+                    <div class="form-group col-xs-6">
+                        <input type="submit" name="" value="Register" >
+                    </div>
+                </div>
             </form>
         {%  endif %}
     </div>
