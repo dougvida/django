@@ -1,0 +1,14 @@
+**/obj/
+**/bin/
+**/.vs/
+**/.idea/
+**/.include/
+**/.Lib/
+**/.Scripts/
+**/.tcl/
+**/.test_data/
+**/.data/
+**/.build/
+**/.dist/
+*.log
+

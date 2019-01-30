@@ -1,0 +1,9 @@
+MSH|^~\&|ECW|COMPFL1|Precision|Precision Diagnostics|20190116120515||ORM^O01|EA204775|P|2.3|
+PID|1|42542|||VAUGHN^GARY^||19551011|Male|||P O Box 2353^^Crystal River^FL^34423||7708835666|||M|||260746586|
+PV1|1||||||1043205305^Ulseth^Robert^|^Wilson^Carlene^|||||||||||204775|
+IN1|1|BCBSFL|BCBSFL|Blue Shield  Florida|PO Box 1798^^Jacksonville^FL^32231-0014|||||||||||Vaughn^Gary^|Self|19551011|P O Box 2353^^Crystal River^FL^|||||||||||||||||VMBH20795358|||||||||||T|
+GT1|1||Vaughn^Gary^||P O Box 2353^^Crystal River^FL^34423|7708835666||19551011|M||1|260746586
+ORC|NW|EA204775|||||||20190116120515|||1043205305^Ulseth^Robert^|
+OBR|1|EA204775||NU4492^PDX Custom Panel - COMPFL - ULSETH_UA|||20190116130400|||||||||1043205305^Ulseth^Robert^|||||||||||0^^^^^^^^
+DG1|1|1|Z79891|Long term (current) use of opiate analgesic|
+NTE|1||Medications Methadone,Oxycodone,Duragesic-12|
